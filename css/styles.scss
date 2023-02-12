@@ -2,6 +2,7 @@ section {
     border: 1px solid;
     border-radius: 2rem;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .flex-direction-row {
@@ -26,8 +27,29 @@ section {
     flex-grow: 1;
 }
 
+.flex-shrink {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-shrink > .color {
+    flex-grow: 1;
+}
+
+.flex-shrink > .orange {
+    flex-shrink: 1;
+}
+
+.flex-shrink > .white {
+    flex-shrink: 20;
+}
+
+.flex-shrink > .green {
+    flex-shrink: 30;
+}
+
 .color {
-    width: 20%;
+    width: 200px;
     height: 50px;
 }
 
