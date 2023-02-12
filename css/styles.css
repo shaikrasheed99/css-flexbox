@@ -48,6 +48,12 @@ section {
   flex-shrink: 30;
 }
 
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .color {
   width: 200px;
   height: 50px;
