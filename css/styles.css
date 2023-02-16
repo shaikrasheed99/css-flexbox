@@ -54,6 +54,17 @@ section {
   flex-wrap: wrap;
 }
 
+.flex-basis {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.basis {
+  height: 50px;
+  flex-basis: 500px;
+}
+
 .color {
   width: 200px;
   height: 50px;
