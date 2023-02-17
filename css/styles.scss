@@ -86,6 +86,24 @@ section {
     padding: 0 2vw;
 }
 
+.flex-element-order {
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+}
+
+.one {
+    order: 2;
+}
+
+.two {
+    order: 0;
+}
+
+.three {
+    order: 1;
+}
+
 .color {
     width: 200px;
     height: 50px;
